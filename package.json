@@ -1,0 +1,29 @@
+{
+  "name": "is-tor",
+  "version": "3.0.0",
+  "description": "🔍 Detects whether a user is using a Tor exit node to hide their IP address.",
+  "main": "is-tor.js",
+  "scripts": {
+    "test": "mocha tests/index.test.js"
+  },
+  "keywords": [
+    "tor",
+    "is-tor",
+    "exit-node",
+    "exit",
+    "node",
+    "ip",
+    "hide",
+    "protection",
+    "bot",
+    "spam",
+    "threat"
+  ],
+  "author": "Joey Malvinni",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "node-fetch": "^2.6.1"
+  }
+}
