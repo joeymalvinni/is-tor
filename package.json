@@ -25,5 +25,16 @@
     "chai": "^4.3.4",
     "mocha": "^8.3.2",
     "node-fetch": "^2.6.1"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeymalvinni/is-tor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joeymalvinni/is-tor/issues"
+  },
+  "homepage": "https://github.com/joeymalvinni/is-tor#readme"
 }
