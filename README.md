@@ -41,7 +41,7 @@ console.log(isTor('176.10.99.200')) // => true
 
 The author of is-tor is [Joey Malvinni](https://github.com/joeymalvinni)
 
-[List of all contributors](https://github.com/joeymalvinni/webrtc-ips/graphs/contributors)
+[List of all contributors](https://github.com/joeymalvinni/is-tor/graphs/contributors)
 
 ## License
 
