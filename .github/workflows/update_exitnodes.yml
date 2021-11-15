@@ -11,6 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: wouldnt/tor-list-action@master
+      - shell: bash
+        run: |
+          wget https://check.torproject.org/torbulkexitlist > src/exit-nodes.txt
         with:
           branch: "main"
           file: "data/exit-nodes.json"
