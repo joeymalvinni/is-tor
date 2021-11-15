@@ -12,6 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: wouldnt/tor-list-action@master
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.BOT_TOKEN }}
           branch: "main"
           file: "data/exit-nodes.json"
