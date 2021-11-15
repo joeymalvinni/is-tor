@@ -14,6 +14,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: "main"
-          file: "./data/exit-nodes.json"
+          file: "data/exit-nodes.json"
           committer_name: ${{ secrets.COMMITTER_NAME }}
           committer_email: ${{ secrets.COMMITTER_EMAIL }}
